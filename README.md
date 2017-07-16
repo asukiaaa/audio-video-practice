@@ -1,14 +1,22 @@
 # audio-video-practice
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure project to sound audios and show images.
+
+## Setup overtone
+```
+lein deps # It may takes arround 30 min
+```
+
+For ubuntu, see [this site](http://marianoguerra.org/posts/overtone-clojure-jackd-alsa-in-ubuntu-1410.html).
 
 ## Usage
+```
+lein run -m audio-video-practice.core/main
+```
 
-FIXME
+After that, you can get `overtone.wav` in project directory.
 
 ## License
-
-Copyright © 2017 FIXME
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
